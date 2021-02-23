@@ -6,8 +6,7 @@ int main()
 { 
   int pid=0;
   
-    // make two process which run same 
-    // program after this instruction 
+  
   pid =  fork(); 
   if(pid==0)
   {
